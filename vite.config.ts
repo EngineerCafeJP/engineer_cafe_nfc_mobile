@@ -5,8 +5,7 @@ import { VitePWA } from 'vite-plugin-pwa';
 
 // https://vitejs.dev/config/
 export default defineConfig({
-  // base: process.env.GITHUB_PAGES ? '/react-read-nfc-app/' : './',
-  base: '/',
+  base: process.env.GITHUB_PAGES ? '/engineer_cafe_nfc_mobile/' : '/',
   plugins: [
     react(),
     basicSsl(),
